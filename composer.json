@@ -1,0 +1,15 @@
+{
+    "name": "shalom/books",
+    "description": "Shalom Book is an online store for biblical book collection",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Webandcrafts",
+            "email": "binu@webandcrafts.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fabpot/goutte": "^3.2"
+    }
+}
