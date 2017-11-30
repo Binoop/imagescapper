@@ -1,11 +1,11 @@
 {
-    "name": "shalom/books",
-    "description": "Shalom Book is an online store for biblical book collection",
+    "name": "binoop/imagescapper",
+    "description": "Image scrapper from random website",
     "type": "project",
     "authors": [
         {
-            "name": "Webandcrafts",
-            "email": "binu@webandcrafts.com"
+            "name": "Binoop",
+            "email": "binu.v90@gmail.com"
         }
     ],
     "minimum-stability": "dev",
