@@ -14,7 +14,6 @@ $guzzleClient = new \GuzzleHttp\Client(array(
 
 $client->setClient($guzzleClient);
 
-
 // Create ISBN array
 $isbnArray = ["9781586177225",
 "9781621641735",
@@ -67,14 +66,13 @@ try{
 
   if($insert){
     array_push($successfulScrap,$isbn);
-    echo "Image Downloaded for ".$isbn." successfully \n";
   }
 }catch(Exception $e){
   array_push($failureScrap,$isbn);
 };
 
 }
-echo "Success /n";
-var_dump($successfulScrap);
-echo "Failure /n";
-var_dump($failureScrap);
+echo "Success";
+print_r($successfulScrap);
+echo "Failure";
+print_r($failureScrap);
