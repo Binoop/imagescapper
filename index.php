@@ -56,6 +56,9 @@ try{
   $metaScrapperCrawler = $client->request('GET',$scrapper_url);
 
   // Filter Meta Information
+  // TODO: Currently scrapping meta image information. To get other information
+  // Set in value "meta" in filter method, all meta tag will listed in an array
+  // Loop through array for desired values
   $metaScrapperCrawlerImage = $metaScrapperCrawler->filter('meta[property="og:image"]')->attr("content");
 
 
